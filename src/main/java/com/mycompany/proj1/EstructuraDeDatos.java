@@ -8,10 +8,9 @@ package com.mycompany.proj1;
  *
  * @author DELL
  */
-// Main.java
-public class Main {
+public class EstructuraDeDatos {
     public static void main(String[] args) {
-        // Llamar al método main de Calificaciones
-        Calificaciones.main(new String[0]); 
+        /**Calificaciones.main(args);*/
+        NamesClass.ShowNames();
     }
 }

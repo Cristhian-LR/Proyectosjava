@@ -9,7 +9,6 @@ package com.mycompany.proj1;
  * @author DELL
  */
 public class Calificaciones {
-
     public static void main(String[] args) {
         int[] calificaciones = new int[3];
         calificaciones[0] = 9;

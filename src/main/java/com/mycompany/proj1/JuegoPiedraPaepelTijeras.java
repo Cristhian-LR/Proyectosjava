@@ -11,10 +11,10 @@ package com.mycompany.proj1;
 
 import java.util.Random;
 
-public class Juego {
+public class JuegoPiedraPaepelTijeras {
 
-    public void main(String[] args) {
-        System.out.println("¡Vamos a jugar Piedra, Papel o Tijera!");
+    public static void main(String[] args) {
+        System.out.println("Vamos a jugar Piedra, Papel o Tijera");
 
         Random random = new Random();
         int opcion = random.nextInt(3);

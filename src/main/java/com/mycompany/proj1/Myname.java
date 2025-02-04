@@ -8,7 +8,7 @@ package com.mycompany.proj1;
  *
  * @author DELL
  */
-public class Proj1 { 
+public class Myname { 
        public static void main(String[] args) {
         String[] nombres = new String[14];
         nombres[0] = "jorge";
