@@ -9,22 +9,23 @@ package com.mycompany.proj1;
  * @author DELL
  */
 public class Calificaciones {
-    public static void main(String[] args) {
-        int[] calificaciones = new int[3];
-        calificaciones[0] = 9;
-        calificaciones[1] = 9;
-        calificaciones[2] = 8;
+    public static void Average(String[] args) {
+        // arreglo de tipo double con 3 calificaciones
+        double[] ratings = {85.5, 90.0, 78.5};
 
-        System.out.println("Hello World!");
+        double sum = 0.0;
 
-        int suma = 0;
-
-        for (int i = 0; i < calificaciones.length; i++) {
-            System.out.println("Calificacion " + (i + 1) + ": " + calificaciones[i]);
-            suma += calificaciones[i];
+        // ciclo for para recorrer el arregloy sumar todas las calificaciones
+        for (int i = 0; i < ratings.length; i++) {
+            System.out.println("Calificación " + (i + 1) + ": " + ratings[i]);
+            sum += ratings[i];
         }
 
-        double promedio = (double) suma / calificaciones.length;
-        System.out.printf("Promedio: %.2f%n", promedio);
+        // alcular el promedio
+        double average = sum / ratings.length;
+
+        // mprimir la suma total y el promedio final
+        System.out.println("Suma total: " + sum);
+        System.out.println("Promedio final: " + average);
     }
 }
