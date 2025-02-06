@@ -6,11 +6,16 @@ package com.mycompany.proj1;
 
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya
+ * Matricula: 15186
+ * Fecha: 06-Feb-2025
  */
 public class EstructuraDeDatos {
     public static void main(String[] args) {
-        /**Calificaciones.main(args);*/
-        NamesClass.ShowNames();
+        UserData objUserData = new UserData();
+        
+        String fullName = objUserData.fullname("Cristhian", "Loya");
+        System.out.println(fullName);
+                
     }
 }
