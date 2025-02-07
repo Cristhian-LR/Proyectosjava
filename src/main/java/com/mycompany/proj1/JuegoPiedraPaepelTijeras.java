@@ -13,7 +13,7 @@ import java.util.Random;
 
 public class JuegoPiedraPaepelTijeras {
 
-    public static void main(String[] args) {
+    public static void PlayGame(String[] args) {
         System.out.println("Vamos a jugar Piedra, Papel o Tijera");
 
         Random random = new Random();
