@@ -12,11 +12,17 @@ package com.mycompany.proj1;
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
+        ExerciseTypeNumber objExerciseTypeNumber =  new ExerciseTypeNumber();
+        objExerciseTypeNumber.typeNumber(args);
         
-        ArrayMemory objArrayMemory = new ArrayMemory();
+        
+        
+        /*ArrayMemory objArrayMemory = new ArrayMemory();
         objArrayMemory.printunidimensionalArray(args);
         
-        /*MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
+        
+        
+        MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
         objMultidimensionalArrays.printbidimensionalArray();
         
         ArrayListExample objArrayList = new ArrayListExample();
