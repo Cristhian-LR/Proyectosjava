@@ -7,10 +7,13 @@ package com.mycompany.proj1;
 /**
  *
  * @author DELL
+ * Autor: Cristhian Loya
+ * Matricula: 15186
+ * Fecha: 04-feb-2025
  */
 public class NamesClass {
        public static void ShowNames() {
-        String[] names = new String[14]; 
+        String[] names = new String[14]; //creacion de arreglo tipo string para almacenar los nombres de los compañeros
         names[0] = "jorge";
         names[1] = "sebas";
         names[2] = "mario";
@@ -28,8 +31,8 @@ public class NamesClass {
 
         System.out.println("Hello World!");
 
-        for (int i = 0; i < names.length; i++) {
-            System.out.println("Nombre " + (i + 1) + ": " + names[i]);
+        for (int i = 0; i < names.length; i++) {//ciclo for para recorrer el areglo
+            System.out.println("Nombre " + (i + 1) + ": " + names[i]);//imprimir cada nombre
         }
     }
 }

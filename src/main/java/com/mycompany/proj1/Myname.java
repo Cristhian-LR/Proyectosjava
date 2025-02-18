@@ -6,7 +6,9 @@ package com.mycompany.proj1;
 
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya
+ * Matricula: 15186
+ * Fecha: 06-Feb-2025
  */
 public class Myname { 
        public static void main(String[] args) {

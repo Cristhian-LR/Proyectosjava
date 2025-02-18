@@ -6,7 +6,9 @@ package com.mycompany.proj1;
 
 /**
  *
- * @autor: Cristhian Loya Matricula: 15186 Fecha: 11-Feb-2025
+ * @autor: Cristhian Loya 
+ * Matricula: 15186
+ * Fecha: 11-Feb-2025
  */
 public class StudentGrades {
 
@@ -22,7 +24,7 @@ public class StudentGrades {
     }
 
     public String checkFailureByAbsences(int totalHours, int absences) {
-        double absencePercentage = (absences / (double) totalHours) * 100; //calcula el porcentaje de ausencias
+        double absencePercentage = ((double)absences / (double) totalHours) * 100; //calcula el porcentaje de ausencias
         if (absencePercentage > 10) {//ciclo para calcular si el numero de faltas es mayor o menor al 10%
             return "El alumno esta reprobado por faltas.";
         } else {

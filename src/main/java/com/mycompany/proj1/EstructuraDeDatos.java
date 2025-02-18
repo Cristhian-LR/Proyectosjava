@@ -4,34 +4,56 @@
  */
 package com.mycompany.proj1;
 
+
 /**
  *
- * @autor: Cristhian Loya
- * Matricula: 15186
- * Fecha: 06-Feb-2025
+ * @autor: Cristhian Loya Matricula: 15186 Fecha: 06-Feb-2025
  */
 public class EstructuraDeDatos {
-    //public static void main(String[] args) {
-        //UserData objUserData = new UserData();
-        
-        //String fullName = objUserData.fullname("Cristhian", "Loya");
-        //System.out.println(fullName);
-                
-    
+
     public static void main(String[] args) {
-        StudentGrades student = new StudentGrades();
         
+        ArrayMemory objArrayMemory = new ArrayMemory();
+        objArrayMemory.printunidimensionalArray(args);
+        
+        /*MultidimensionalArrays objMultidimensionalArrays = new MultidimensionalArrays();
+        objMultidimensionalArrays.printbidimensionalArray();
+        
+        ArrayListExample objArrayList = new ArrayListExample();
+        objArrayList.addCars("Mazda");
+        objArrayList.addCars("ford");
+        objArrayList.removeCar(0);
+        objArrayList.returnSize();
+        
+        Scanner objScanner = new Scanner(System.in);
+        System.out.println("Ingresa el radio del círculo:");
+
+        double radius = objScanner.nextDouble();
+
+        AreaCircle objAreaCircle = new AreaCircle();
+        double area = objAreaCircle.calculateArea(radius);
+
+        // Imprimir correctamente con formato
+        System.out.printf("El área del círculo es: %.2f%n", area);
+
+        objScanner.close();
+
+        UserData objUserData = new UserData();
+        
+        String fullName = objUserData.fullname("Cristhian", "Loya");
+        System.out.println(fullName);
+                
         // Calcular la calificación del parcial
-        int partialGrade = student.calculatePartialGrade(85, 90);
+        int partialGrade = objStudentGrades.calculatePartialGrade(85, 90);
         System.out.println("Calificación del parcial: " + partialGrade);
         
         // Calcular la calificación final del semestre
-        int finalGrade = student.calculateFinalGrade(80, 75, 90, 85);
+        int finalGrade = objStudentGrades.calculateFinalGrade(80, 75, 90, 85);
         System.out.println("Calificación final del semestre: " + finalGrade);
-        
+
         // Verificar el estatus de asistencia
-        String attendanceStatus = student.checkFailureByAbsences(64, 5);
-        System.out.println(attendanceStatus);
+        String attendanceStatus = objStudentGrades.checkFailureByAbsences(64, 5);
+        System.out.println(attendanceStatus); */
+        
     }
 }
-   

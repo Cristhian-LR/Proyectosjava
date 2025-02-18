@@ -6,10 +6,12 @@ package com.mycompany.proj1;
 
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya
+ * Matricula: 15186
+ * Fecha: 06-Feb-2025
  */
 public class Calificaciones {
-    public static void Average(String[] args) {
+        public static void Average(String[] args) {
         // arreglo de tipo double con 3 calificaciones
         double[] ratings = {85.5, 90.0, 78.5};
 
@@ -17,7 +19,7 @@ public class Calificaciones {
 
         // ciclo for para recorrer el arregloy sumar todas las calificaciones
         for (int i = 0; i < ratings.length; i++) {
-            System.out.println("Calificación " + (i + 1) + ": " + ratings[i]);
+            System.out.println("calificacion " + (i + 1) + ": " + ratings[i]);
             sum += ratings[i];
         }
 
@@ -25,7 +27,7 @@ public class Calificaciones {
         double average = sum / ratings.length;
 
         // mprimir la suma total y el promedio final
-        System.out.println("Suma total: " + sum);
-        System.out.println("Promedio final: " + average);
+        System.out.println("suma total: " + sum);
+        System.out.println("promedio final: " + average);
     }
 }
