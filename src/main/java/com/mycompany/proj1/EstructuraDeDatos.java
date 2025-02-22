@@ -12,6 +12,8 @@ package com.mycompany.proj1;
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
+        SalesCalculation objSalesCalculation = new SalesCalculation();
+        objSalesCalculation.salesCalculationIVA(args);
         
         /*ArrayListt objArrayList = new ArrayListt();
         objArrayList.addLenguages("Phyton");
