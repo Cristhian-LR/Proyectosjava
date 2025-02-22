@@ -14,7 +14,10 @@ package com.mycompany.proj1;
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
-        SumMatrix objSumMatrix = new SumMatrix();
+        CalculateRating objCalculateRating = new CalculateRating();
+        objCalculateRating.averageFinal(args);
+        
+        /*SumMatrix objSumMatrix = new SumMatrix();
         objSumMatrix.sum(args);
                 
         /*SalesCalculation objSalesCalculation = new SalesCalculation();
