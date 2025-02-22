@@ -7,15 +7,20 @@ package com.mycompany.proj1;
 
 /**
  *
- * @autor: Cristhian Loya Matricula: 15186 Fecha: 06-Feb-2025
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 23-Feb-2025
  */
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
-        SalesCalculation objSalesCalculation = new SalesCalculation();
+        SumMatrix objSumMatrix = new SumMatrix();
+        objSumMatrix.sum(args);
+                
+        /*SalesCalculation objSalesCalculation = new SalesCalculation();
         objSalesCalculation.salesCalculationIVA(args);
         
-        /*ArrayListt objArrayList = new ArrayListt();
+        ArrayListt objArrayList = new ArrayListt();
         objArrayList.addLenguages("Phyton");
         objArrayList.addLenguages("JAVA");
         objArrayList.addLenguages("JavaScript");
