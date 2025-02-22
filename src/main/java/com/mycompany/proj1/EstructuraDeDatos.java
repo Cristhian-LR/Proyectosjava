@@ -14,13 +14,16 @@ package com.mycompany.proj1;
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
-        CalculateRating objCalculateRating = new CalculateRating();
+        RatingStatus objRatingStatus = new RatingStatus();
+        objRatingStatus.PassOrFail(args);
+        
+        /*CalculateRating objCalculateRating = new CalculateRating();
         objCalculateRating.averageFinal(args);
         
-        /*SumMatrix objSumMatrix = new SumMatrix();
+        SumMatrix objSumMatrix = new SumMatrix();
         objSumMatrix.sum(args);
                 
-        /*SalesCalculation objSalesCalculation = new SalesCalculation();
+        SalesCalculation objSalesCalculation = new SalesCalculation();
         objSalesCalculation.salesCalculationIVA(args);
         
         ArrayListt objArrayList = new ArrayListt();
@@ -40,7 +43,7 @@ public class EstructuraDeDatos {
         
         
         
-        /*ArrayMemory objArrayMemory = new ArrayMemory();
+        ArrayMemory objArrayMemory = new ArrayMemory();
         objArrayMemory.printunidimensionalArray(args);
         
         
