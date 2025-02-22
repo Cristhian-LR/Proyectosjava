@@ -12,6 +12,19 @@ package com.mycompany.proj1;
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
+        
+        /*ArrayListt objArrayList = new ArrayListt();
+        objArrayList.addLenguages("Phyton");
+        objArrayList.addLenguages("JAVA");
+        objArrayList.addLenguages("JavaScript");
+        objArrayList.addLenguages("C++");
+        objArrayList.addLenguages("Ruby");
+        objArrayList.removeLenguages(4);
+        objArrayList.editLenguages(3);
+        System.out.println("Tamaño del ArrayList:" + objArrayList.returnSize());
+        objArrayList.clearLenguages();
+        System.out.println("Tamaño del ArrayList:" + objArrayList.returnSize());
+
         ExerciseTypeNumber objExerciseTypeNumber =  new ExerciseTypeNumber();
         objExerciseTypeNumber.typeNumber(args);
         
