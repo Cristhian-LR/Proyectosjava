@@ -14,7 +14,10 @@ package com.mycompany.proj1;
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
-        GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
+        SalesWithDiscount objSalesWithDiscount = new SalesWithDiscount();
+        objSalesWithDiscount.totalWithDiscount(args);
+        
+        /*GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
         objGradeCalculationPartial.averageStatusFinal(args);
         
         /*RatingStatus objRatingStatus = new RatingStatus();
