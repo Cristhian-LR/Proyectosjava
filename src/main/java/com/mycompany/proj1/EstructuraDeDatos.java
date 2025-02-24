@@ -14,10 +14,13 @@ package com.mycompany.proj1;
 public class EstructuraDeDatos {
 
     public static void main(String[] args) {
-        RatingStatus objRatingStatus = new RatingStatus();
+        GradeCalculationPartial objGradeCalculationPartial = new GradeCalculationPartial();
+        objGradeCalculationPartial.averageStatusFinal(args);
+        
+        /*RatingStatus objRatingStatus = new RatingStatus();
         objRatingStatus.PassOrFail(args);
         
-        /*CalculateRating objCalculateRating = new CalculateRating();
+        CalculateRating objCalculateRating = new CalculateRating();
         objCalculateRating.averageFinal(args);
         
         SumMatrix objSumMatrix = new SumMatrix();
