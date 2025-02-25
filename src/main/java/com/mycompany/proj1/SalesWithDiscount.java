@@ -8,23 +8,20 @@ package com.mycompany.proj1;
  *
  * @autor: Cristhian Loya 
  * Matricula: 15186 
- * Fecha: 23-Feb-2025
+ * Fecha: 24-Feb-2025
  */
 public class SalesWithDiscount {
-    public void totalWithDiscount(String[] args) {
+    public double totalWithDiscount() {
         double[] sales = {100.0, 200.0, 150.0};
         
-        double totalDescuento = 0;
         double total = 0;
 
         for (double sale : sales) {
-            totalDescuento = (sale - (sale*.9));
-            System.out.println(""+totalDescuento);
-            total += sale;
-            System.out.println(""+total);
+            double discountPrice = sale * 0.9; // Aplica el 10% de descuento
+            total += discountPrice;
         }
 
-        // mostrar el resultado
-        System.out.printf("Total de ventas: $%.2f%n", total - totalDescuento);
+        return total;
     }
 }
+
