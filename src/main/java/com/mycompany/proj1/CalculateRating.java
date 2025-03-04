@@ -7,7 +7,9 @@ package com.mycompany.proj1;
 import java.util.Scanner;
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 23-Feb-2025
  */
 public class CalculateRating {
     public void averageFinal(String[] args) {

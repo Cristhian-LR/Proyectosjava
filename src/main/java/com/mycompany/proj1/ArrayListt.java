@@ -5,10 +5,11 @@
 package com.mycompany.proj1;
 
 import java.util.ArrayList;
-
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 23-Feb-2025
  */
 public class ArrayListt {
 
@@ -27,7 +28,7 @@ public class ArrayListt {
     }
 
     public void editLenguages(int lenguageIndex) {
-        if (lenguageIndex >= 0 && lenguageIndex < lenguages.size()) { // Validación
+        if (lenguageIndex >= 0 && lenguageIndex < lenguages.size()) {
             lenguages.set(lenguageIndex, lenguages.get(lenguageIndex) + " (actualmente)");
         }
     }

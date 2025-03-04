@@ -11,7 +11,7 @@ package com.mycompany.proj1;
  * Fecha: 06-Feb-2025
  */
 public class Calificaciones {
-        public static void Average(String[] args) {
+    public static void Average(String[] args) {
         // arreglo de tipo double con 3 calificaciones
         double[] ratings = {85.5, 90.0, 78.5};
 
