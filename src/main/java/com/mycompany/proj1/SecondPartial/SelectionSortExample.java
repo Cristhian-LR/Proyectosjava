@@ -4,9 +4,12 @@
  */
 package com.mycompany.proj1.SecondPartial;
 
+
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 05-Marz-2025
  */
 public class SelectionSortExample {
 
@@ -25,7 +28,6 @@ public class SelectionSortExample {
             int temp = arr[minIndex];
             arr[minIndex] = arr[i];
             arr[i] = temp;
-            operaciones += 3; // Cuenta las 3 asignaciones del intercambio
 
             // Imprimir el estado del arreglo en cada iteración
             System.out.print("Iteración " + (i + 1) + ": ");
