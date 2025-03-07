@@ -4,9 +4,12 @@
  */
 package com.mycompany.proj1.SecondPartial;
 
+
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 06-Marz-2025
  */
 public class InsertionSortExample {
     public static int insertionSort(int arr[]) {

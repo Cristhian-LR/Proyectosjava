@@ -9,11 +9,20 @@ package com.mycompany.proj1.SecondPartial;
  *
  * @autor: Cristhian Loya 
  * Matricula: 15186 
- * Fecha: 23-Feb-2025
+ * Fecha: 05-Marz-2025
  */
-public class SecondPartial {
+public class SecondPartialMain {
 
     public static void main(String[] args) {
+        
+        /*int peorCaso[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+        
+        System.out.println("Peor Caso:");
+        int operacionesPeor = BubbleSortExample.bubbleSort(peorCaso);
+        for (int num : peorCaso) {
+            System.out.print(num + " ");
+        }
+        System.out.println("\nNumero total de operaciones: " + operacionesPeor); 
         
         int peorCaso[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         int mejorCaso[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -30,9 +39,9 @@ public class SecondPartial {
         for (int num : mejorCaso) {
             System.out.print(num + " ");
         }
-        System.out.println("\nOperaciones realizadas: " + operacionesMejor);
+        System.out.println("\nOperaciones realizadas: " + operacionesMejor);*/
         
-        /*int peorCaso[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+        int peorCaso[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
         int mejorCaso[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         
         System.out.println("Peor Caso:");
@@ -47,6 +56,6 @@ public class SecondPartial {
         for (int num : mejorCaso) {
             System.out.print(num + " ");
         }
-        System.out.println("\nOperaciones realizadas: " + operacionesMejor);*/
+        System.out.println("\nOperaciones realizadas: " + operacionesMejor);
     }
 }
