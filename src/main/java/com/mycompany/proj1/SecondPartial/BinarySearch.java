@@ -6,7 +6,9 @@ package com.mycompany.proj1.SecondPartial;
 
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 18-Marz-2025
  */
 public class BinarySearch {
     public int search(int[] arr, int target) {

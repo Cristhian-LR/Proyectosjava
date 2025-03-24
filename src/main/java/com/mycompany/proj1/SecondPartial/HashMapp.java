@@ -6,7 +6,9 @@ package com.mycompany.proj1.SecondPartial;
 
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 24-Marz-2025
  */
 // Import the HashMapp class
 import java.util.HashMap;
