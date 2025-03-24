@@ -9,7 +9,7 @@ package com.mycompany.proj1.SecondPartial;
  *
  * @autor: Cristhian Loya 
  * Matricula: 15186 
- * Fecha: 05-Marz-2025
+ * Fecha: 24-Marz-2025
  */
 public class SecondPartialMain {
 
@@ -59,10 +59,13 @@ public class SecondPartialMain {
         System.out.println("\nOperaciones realizadas: " + operacionesMejor);
         
         LinealSort objLinealSort = new LinealSort();
-        System.out.println(objLinealSort.find(5));*/
+        System.out.println(objLinealSort.find(5));
         
         HashMapp objHashMapp = new HashMapp();
-        objHashMapp.printCapitalCities(args);
+        objHashMapp.printCapitalCities(args);*/
+        
+        IndexedSearch objIndexedSearch = new IndexedSearch();
+        objIndexedSearch.search(args);
         
     }
 }
