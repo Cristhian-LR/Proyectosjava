@@ -33,12 +33,4 @@ public class BinarySearch {
         System.out.println("Comparaciones: " + comparisons);
         return -1; // Si el número no está en el arreglo
     }
-
-    public static void main(String[] args) {
-        BinarySearch bs = new BinarySearch();
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Debe estar ordenado
-        
-        System.out.println("Índice encontrado: " + bs.search(numbers, 7)); // Salida esperada: Índice 6 y comparaciones
-        System.out.println("Índice encontrado: " + bs.search(numbers, 11)); // Salida esperada: -1 y comparaciones
-    }
 }

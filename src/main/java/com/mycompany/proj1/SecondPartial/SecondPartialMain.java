@@ -4,7 +4,6 @@
  */
 package com.mycompany.proj1.SecondPartial;
 
-
 /**
  *
  * @autor: Cristhian Loya 
@@ -62,10 +61,26 @@ public class SecondPartialMain {
         System.out.println(objLinealSort.find(5));
         
         HashMapp objHashMapp = new HashMapp();
-        objHashMapp.printCapitalCities(args);*/
+        objHashMapp.printCapitalCities(args);
         
         IndexedSearch objIndexedSearch = new IndexedSearch();
         objIndexedSearch.search(args);
+        
+        QuickSort objQuickSort = new QuickSort();
+        objQuickSort.output(args);
+        
+        
+        int[] datos = {10, 20, 30, 40, 50};
+        SearchSecuencial objSearchSecuencial =  new SearchSecuencial();
+        int resultado = objSearchSecuencial.search(datos, 30);
+
+        System.out.println("El número 30 está en la posición: " + resultado);*/
+        
+        BinarySearch objBinarySearch = new BinarySearch();
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Debe estar ordenado
+        
+        System.out.println("Índice encontrado: " + objBinarySearch.search(numbers, 7)); // Salida esperada: Índice 6 y comparaciones
+        System.out.println("Índice encontrado: " + objBinarySearch.search(numbers, 11)); // Salida esperada: -1 y comparaciones
         
     }
 }
