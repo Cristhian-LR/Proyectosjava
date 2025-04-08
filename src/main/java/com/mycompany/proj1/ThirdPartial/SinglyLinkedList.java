@@ -6,7 +6,9 @@ package com.mycompany.proj1.ThirdPartial;
 
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 08-Abril-2025
  */
 public class SinglyLinkedList {
 

@@ -6,7 +6,9 @@ package com.mycompany.proj1.ThirdPartial;
 
 /**
  *
- * @author DELL
+ * @autor: Cristhian Loya 
+ * Matricula: 15186 
+ * Fecha: 08-Abril-2025
  */
 public class ThirdPartialMain {
 
@@ -23,6 +25,9 @@ public class ThirdPartialMain {
         System.out.println("Is 20 in the list? " + list.search(20));
 
         list.delete(20);
+        list.delete(30);
+        list.insert(40);
+
 
         System.out.println("After deleting 20:");
         list.display();
