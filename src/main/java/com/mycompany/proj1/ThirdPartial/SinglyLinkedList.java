@@ -8,7 +8,7 @@ package com.mycompany.proj1.ThirdPartial;
  *
  * @autor: Cristhian Loya 
  * Matricula: 15186 
- * Fecha: 08-Abril-2025
+ * Fecha: 18-Mayo-2025
  */
 public class SinglyLinkedList {
 
